@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<extentreports>
+	<!-- acest fisier e necesar doar pt a configura CUM ARATA test reportul -->
+	<configuration>
+		<theme>standard</theme>
+		<encoding>UTF-8</encoding>
+		<protocol>https</protocol>
+		<documentTitle>BT AUTO 2022 TEST REPORT</documentTitle>
+		<reportName>BT AUTO 2022 REPORT</reportName>
+		<reportHeadline>BT AUTO 2022</reportHeadline>
+		<dateFormat>yyyy-MM-dd</dateFormat>
+		<timeFormat>HH:mm:ss</timeFormat>
+		<script>
+			<!-- cand incarc documentul se apeleaza o functie - in interiorul acoladelor putem pune o functie de javascript-->
+			<![CDATA[$(document).ready(function() { });]]>
+		</script>
+		<styles>
+			<!-- in linia de jos putem insera un stil, daca dorim-->
+			<![CDATA[]]>
+		</styles>
+	</configuration>
+</extentreports>
